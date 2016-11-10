@@ -1,0 +1,9 @@
+{
+	"host": "a1jscuk7a2leo9.iot.us-west-2.amazonaws.com",
+	"port": 8883,
+	"clientId": "HomeGateway",
+	"thingName": "HomeGateway",
+	"caCert": "root-CA.crt",
+	"clientCert": "gateway-certificate.pem.crt",
+	"privateKey": "gateway-private.pem.key"
+}
