@@ -26,7 +26,7 @@ installPrereqs() {
 	sudo apt-get install python-rpi.gpio -y
 	sudo apt-get install python-smbus
 	sudo apt-get install i2c-tools
-	sudo apt-get install nodejs
+	sudo apt-get install node
 	sudo apt-get install git
 
 	# Install AWS CLI

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo "Be sure that you have already configured the AWS CLI with credentials!"
 
