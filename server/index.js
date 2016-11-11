@@ -4,9 +4,9 @@ var awsIot = require('aws-iot-device-sdk');
 const COUCH_PORT=9000;
 
 var device = awsIot.device({
-	keyPath: "~/deviceSDK/certs/private.pem",
-	certPath: "~/deviceSDK/certs/gateway.cert",
-	caPath: "~/deviceSDK/certs/root-CA.cert",
+	// keyPath: "~/deviceSDK/certs/private.pem",
+	// certPath: "~/deviceSDK/certs/gateway.cert",
+	// caPath: "~/deviceSDK/certs/root-CA.cert",
 	clientId: "HomeGateway",
 	region: "us-west-2"
 });
