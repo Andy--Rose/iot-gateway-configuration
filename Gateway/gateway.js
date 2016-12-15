@@ -7,6 +7,6 @@ function handleRequestCouch(request, response) {
 }
 
 var couchServer = http.createServer(handleRequestCouch);
-couchServerlisten(COUCH_PORT, function() {
+couchServer.listen(COUCH_PORT, function() {
 	console.log("Couch server initiated on localhost:%s", COUCH_PORT);
 });
